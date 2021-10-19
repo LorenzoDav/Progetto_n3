@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.my-body{
+  color: #292929;
+  width: 100%;
   display: flex;
+  justify-content: center;
+}
+
+.my-sheet{
+  margin-top: 20px;
+  border-radius: 12px;
+  background-color: rgba(211, 210, 210, 0.3);
+  line-height: 1.2;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 1200px;
+}
+
+.my-title{
+  font-size: 64px;
+  margin-bottom: 0px;
+}
+
+.my-list{
+  font-size: 14px;
+  text-align: left;
+  padding: 4px;
+  margin-left: 50px;
+}
+
+.my-normal-text{
+  font-size: 14px;
+  text-align: left;
+  padding: 4px;
+  border-radius: 10px;
+  border-color: rgb(216, 216, 216);
+  border-style: solid;
+  border-width: 1px;
+  margin: 0 50px 0 50px;
+}
+
+.my-image-description{
+  font-size: 14px;
+  padding: 10px 400px 10px 400px;
+  border-color: rgb(216, 216, 216);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(196, 196, 196);
+
+ 
+}
+
+.my-box{
+  width: 500px;
+}
+
+.my-img{
+  border-radius: 50%;
+  width: 400px;
+  height: 500px;
+  padding-top: 20px;
+}
+
+.my-img-container{
+  display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 10px;
+  border-color: rgb(216, 216, 216);
+  border-style: solid;
+  border-width: 1px;
+  margin: 30px 50px 30px 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.my-title-list{
+  text-align: left;
+  margin-left: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.my-risorse{
+  text-align: center;
 }
