@@ -26,7 +26,9 @@ function App() {
 
             <img src={artist} className="my-img"/>
 
-            <p className="my-image-description">The most well-known portrait of Onassis.</p>
+            <div className="my-image-description-container">
+              <span className="my-image-description">The most well-known portrait of Onassis.</span>
+            </div>
 
           </div>
 
@@ -65,11 +67,11 @@ function App() {
               <li><b>1975</b> Onassis died at age 69 on 15 March 1975 at the American Hospital of Paris in Neuilly-sur-Seine, France, of respiratory failure, a complication of the myasthenia gravis from which he had been suffering during the last years of his life.</li>
 
           </ul>
-          <p className="my-risorse">Read more about Aristotle Onassis on Wikipedia.</p>
+          <p className="my-source">Read more about Aristotle Onassis on <a href="https://en.wikipedia.org/wiki/Aristotle_Onassis" >Wikipedia</a>.</p>
         </div>
       </div>
-      <footer>
-        <h5>writtern and coded by George Georgiou.</h5>
+      <footer className="my-footer">
+        Writtern and coded by <a href="https://www.freecodecamp.org/glgeorgiou" >George Georgiou.</a>
       </footer>
     </>
   );
