@@ -35,7 +35,6 @@ function App() {
           <h2 className="my-title-list">  The following list is a time line of Onassis Life</h2>
 
           <ul className="my-list" >
-
               <li><b>1906</b> - born in Karataş, Smyrna, Ottoman Empire.</li>
 
               <li><b>1922</b> - He left from Smyrna during the great fire of Smyrna in 1922.</li>
@@ -65,7 +64,6 @@ function App() {
               <li><b>1968</b> - Onassis ended his relationship with Callas to marry Jacqueline Kennedy, widow of U.S. President John F. Kennedy.</li>
 
               <li><b>1975</b> Onassis died at age 69 on 15 March 1975 at the American Hospital of Paris in Neuilly-sur-Seine, France, of respiratory failure, a complication of the myasthenia gravis from which he had been suffering during the last years of his life.</li>
-
           </ul>
           <p className="my-source">Read more about Aristotle Onassis on <a href="https://en.wikipedia.org/wiki/Aristotle_Onassis" >Wikipedia</a>.</p>
         </div>
